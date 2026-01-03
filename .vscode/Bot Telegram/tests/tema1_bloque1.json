@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál es la capital de España?",
+    "opciones": ["Barcelona", "Valencia", "Madrid", "Sevilla"],
+    "respuesta_correcta": 2
+  },
+  {
+    "id": 2,
+    "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+    "opciones": ["1914", "1939", "1945", "1929"],
+    "respuesta_correcta": 1
+  }
+]

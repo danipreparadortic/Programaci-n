@@ -1,0 +1,1103 @@
+[
+    {
+      "id": 1,
+      "bloque": 1,
+      "pregunta": "¿Cuál es el principal objetivo del **Software de Base** o *System Software* en relación con el SO?",
+      "opciones": [
+        "Ejecutar las aplicaciones del usuario final.",
+        "Gestionar la interfaz gráfica de usuario (GUI).",
+        "Proporcionar servicios esenciales al SO para gestionar el *hardware* y los recursos.",
+        "Realizar copias de seguridad de forma automática."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 2,
+      "pregunta": "En el contexto de la administración de sistemas, ¿qué significa el término **Idempotencia**?",
+      "opciones": [
+        "Que la tarea se ejecuta de forma paralela en múltiples servidores.",
+        "Que ejecutar una operación varias veces produce el mismo resultado que ejecutarla una sola vez.",
+        "Que el sistema operativo se comporta de manera determinista.",
+        "Que el *script* de configuración es independiente del SO."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Qué garantiza la **Integridad del Sistema Operativo** a nivel de archivos clave?",
+      "opciones": [
+        "Que las claves de registro sean únicas.",
+        "Que los *logs* de eventos estén cifrados.",
+        "Que los archivos del sistema no hayan sido modificados ni corruptos.",
+        "Que el sistema de archivos esté fragmentado."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué concepto describe la propiedad de un sistema de poder continuar operando incluso si uno o varios componentes fallan?",
+      "opciones": [
+        "Escalabilidad Vertical.",
+        "Tolerancia a Fallos.",
+        "Rendimiento Óptimo.",
+        "Independencia de Plataforma."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Cuál de los siguientes no es un componente gestionado típicamente por el Software de Base?",
+      "opciones": [
+        "*Firmware*.",
+        "Controladores de dispositivo (*Drivers*).",
+        "Intérprete de comandos (*Shell*).",
+        "Hoja de cálculo (*Spreadsheet*)."
+      ],
+      "respuesta_correcta": 4
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Qué fase del ciclo de vida de la administración del SO se centra en evitar fallos futuros mediante tareas rutinarias de limpieza y optimización?",
+      "opciones": [
+        "Reparación Crítica.",
+        "Mantenimiento Preventivo.",
+        "Configuración Inicial.",
+        "Despliegue de Aplicaciones."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 7,
+      "pregunta": "En un entorno de servidores, ¿qué implica la **Escalabilidad Vertical** (*Scale Up*)?",
+      "opciones": [
+        "Añadir más nodos de servidor a la red.",
+        "Aumentar la potencia de un único servidor (más CPU, RAM).",
+        "Utilizar servidores *cloud* en lugar de *on-premise*.",
+        "Implementar una arquitectura de microservicios."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 8,
+      "pregunta": "La gestión de **privilegios mínimos** para los usuarios y servicios es un principio fundamental de:",
+      "opciones": [
+        "Gestión de Almacenamiento.",
+        "Ciberseguridad.",
+        "Virtualización.",
+        "Balanceo de Carga."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Cuál es el propósito del **Registro de Eventos (*Event Log*)** del SO?",
+      "opciones": [
+        "Almacenar datos de usuario de forma temporal.",
+        "Registrar el estado actual de la memoria RAM.",
+        "Documentar actividades del sistema, errores, advertencias y auditorías de seguridad.",
+        "Mantener una copia de seguridad de la clave de *Firmware*."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Qué se conoce como el 'punto único de fallo' en una arquitectura de servidores?",
+      "opciones": [
+        "Un *cluster* de alta disponibilidad.",
+        "La capa de aplicación.",
+        "Un componente no redundante cuya caída detiene todo el servicio.",
+        "La latencia de la red."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Qué herramienta de IaC utiliza lenguajes de programación *mainstream* como Python o TypeScript en lugar de un DSL como HCL?",
+      "opciones": [
+        "Ansible.",
+        "Terraform.",
+        "Kubernetes.",
+        "Pulumi."
+      ],
+      "respuesta_correcta": 4
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Cuál es la principal ventaja de **Terraform** en el contexto de un entorno **Multi-Cloud**?",
+      "opciones": [
+        "Su capacidad para gestionar contenedores sin Docker.",
+        "Su enfoque *agentless* para la configuración de software.",
+        "Su uso de un único flujo de trabajo y lenguaje (HCL) para provisionar recursos en múltiples plataformas *cloud*.",
+        "Su integración nativa con Windows PowerShell."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Qué herramienta de gestión de configuración utiliza *playbooks* escritos en YAML y se comunica con los nodos a través de SSH/WinRM (arquitectura *agentless*)?",
+      "opciones": [
+        "Chef.",
+        "Puppet.",
+        "Ansible.",
+        "SaltStack."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 14,
+      "pregunta": "En IaC, ¿qué representa el archivo de **Estado (*State file*)** de Terraform?",
+      "opciones": [
+        "El archivo de registro de eventos más reciente.",
+        "El historial de comandos ejecutados en el SO.",
+        "El mapeo entre la configuración definida y el estado real de la infraestructura provisionada.",
+        "Las credenciales cifradas para acceder a la nube."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 15,
+      "pregunta": "¿Qué término describe la aplicación de lógica de programación (bucles, condicionales) dentro de la definición de infraestructura?",
+      "opciones": [
+        "Gestión Declarativa Pura.",
+        "Estructura YAML.",
+        "Infraestructura Imperativa.",
+        "Aprovisionamiento Programático."
+      ],
+      "respuesta_correcta": 4
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Cuál es el principal desafío de la arquitectura *Serverless* (ej. AWS Lambda) para el administrador de sistemas?",
+      "opciones": [
+        "La gestión detallada del *hardware* físico.",
+        "La gestión del SO subyacente y sus parches de seguridad.",
+        "La optimización del rendimiento del código y la gestión de la configuración de la función.",
+        "La configuración de la red de área local (LAN)."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 17,
+      "pregunta": "El uso de **CloudFormation** (AWS) o **Azure Resource Manager (ARM)** se considera una forma de IaC. ¿Cuál es su limitación clave frente a Terraform?",
+      "opciones": [
+        "No permiten el uso de archivos JSON.",
+        "Están limitados a su proveedor de nube específico (no son multi-cloud).",
+        "No permiten el despliegue de máquinas virtuales.",
+        "No pueden gestionar servicios de red."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Qué concepto de automatización de sistemas se centra en la definición de las políticas de infraestructura en código, utilizando las mismas herramientas de *software development*?",
+      "opciones": [
+        "Despliegue Manual.",
+        "Administración de *Logs*.",
+        "Ingeniería de Plataforma (*Platform Engineering*).",
+        "Escalabilidad Vertical."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Cuál es el formato de archivo más común utilizado para definir los *playbooks* en Ansible?",
+      "opciones": [
+        "JSON.",
+        "XML.",
+        "YAML.",
+        "HCL."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 20,
+      "pregunta": "En un proceso de CI/CD para la administración de sistemas, ¿qué paso se realiza inmediatamente después de modificar el código IaC y antes de aplicarlo?",
+      "opciones": [
+        "El despliegue de la aplicación.",
+        "La limpieza de archivos temporales.",
+        "La prueba unitaria del código IaC (ej. `terraform validate`).",
+        "La migración de la base de datos."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 21,
+      "pregunta": "¿Cuál es la unidad de despliegue más pequeña y fundamental en **Kubernetes (K8s)**?",
+      "opciones": [
+        "*Node*.",
+        "*Cluster*.",
+        "*Pod*.",
+        "*Service*."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 22,
+      "pregunta": "¿Qué proporciona **Docker** para la administración de sistemas?",
+      "opciones": [
+        "Una plataforma de virtualización de *hardware*.",
+        "Una herramienta para la creación de imágenes y contenedores ligeros.",
+        "Un sistema operativo de servidor para *Big Data*.",
+        "Un lenguaje para la gestión de configuración."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 23,
+      "pregunta": "¿Cuál de las siguientes tareas realiza el **Plano de Control** de Kubernetes?",
+      "opciones": [
+        "Ejecutar el código de la aplicación de usuario.",
+        "Almacenar los datos de la base de datos.",
+        "Mantener el estado deseado del *cluster* (ej. escalar, autoreparar).",
+        "Aplicar parches de seguridad a los servidores *host*."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 24,
+      "pregunta": "¿Qué concepto de K8s permite exponer un conjunto de Pods (aplicaciones) a una red interna o externa a través de una dirección IP y un puerto estables?",
+      "opciones": [
+        "*Deployment*.",
+        "*Volume*.",
+        "*Service*.",
+        "*Ingress Controller*."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 25,
+      "pregunta": "¿Qué problema resuelve el uso de contenedores en relación con las dependencias del *Software de Base*?",
+      "opciones": [
+        "Elimina la necesidad de usar una red local.",
+        "Aísla la aplicación y sus dependencias del sistema operativo *host*.",
+        "Hace la base de datos completamente invisible.",
+        "Permite usar la escalabilidad vertical."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 26,
+      "pregunta": "¿Cómo gestiona K8s la **Autoreparación (*Self-healing*)** de las aplicaciones?",
+      "opciones": [
+        "Mediante la ejecución manual de scripts de reparación.",
+        "Reiniciando o reemplazando automáticamente Pods que fallan o no pasan los chequeos de salud.",
+        "Aplicando parches de seguridad al SO de forma remota.",
+        "Desinstalando el *Software de Base* del nodo."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 27,
+      "pregunta": "¿Qué se conoce como **Microservicios** en la arquitectura de aplicaciones moderna?",
+      "opciones": [
+        "Aplicaciones monolíticas que requieren alta disponibilidad.",
+        "Pequeñas aplicaciones independientes que se comunican entre sí, a menudo desplegadas en contenedores.",
+        "Servicios instalados en el SO que solo se ejecutan cuando es necesario.",
+        "Un tipo de servicio en la nube que gestiona la red."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 28,
+      "pregunta": "¿Qué herramienta se utiliza comúnmente en un entorno K8s para gestionar las instalaciones iniciales de paquetes de software y aplicaciones?",
+      "opciones": [
+        "SFC /scannow.",
+        "Helm.",
+        "Ansible.",
+        "PuTTY."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 29,
+      "pregunta": "¿Qué riesgo de seguridad se mitiga al utilizar **imágenes de contenedores mínimas** (ej. *Alpine*)?",
+      "opciones": [
+        "Aumenta la velocidad de ejecución.",
+        "Reduce el tamaño del *log* de eventos.",
+        "Disminuye la superficie de ataque al incluir menos software de base innecesario.",
+        "Facilita la aplicación de la 3FN a la base de datos."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 30,
+      "pregunta": "El proceso de **Rollout** en Kubernetes permite:",
+      "opciones": [
+        "Borrar todos los datos del clúster.",
+        "Desplegar una nueva versión de la aplicación de forma controlada y revertir rápidamente si hay fallos.",
+        "Crear nuevos nodos de servidor automáticamente.",
+        "Aplicar una nueva política de permisos de red."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 31,
+      "pregunta": "¿Qué comando de utilidad de Windows se utiliza para **examinar y reparar archivos de sistema** protegidos por el SO?",
+      "opciones": [
+        "`CHKDSK /r`.",
+        "`FORMAT C:`.",
+        "`SFC /scannow`.",
+        "`IPCONFIG /all`."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 32,
+      "pregunta": "¿Cuál es el principal inconveniente de la **desfragmentación de disco** en una Unidad de Estado Sólido (SSD)?",
+      "opciones": [
+        "Mejora el rendimiento significativamente.",
+        "No es necesaria y reduce la vida útil del SSD.",
+        "Solo puede realizarse manualmente.",
+        "Requiere la instalación de *firmware* adicional."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 33,
+      "pregunta": "¿Cuál es el objetivo de un **parche de seguridad** (*Security Patch*) para el SO o el *Software de Base*?",
+      "opciones": [
+        "Añadir nuevas características.",
+        "Optimizar la velocidad de la CPU.",
+        "Corregir vulnerabilidades de seguridad conocidas.",
+        "Cambiar la clave de la licencia de Windows."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 34,
+      "pregunta": "En la administración de Linux, ¿qué herramienta o sistema de archivos se utiliza para rotar y comprimir automáticamente los archivos de *log* antiguos?",
+      "opciones": [
+        "`crontab`.",
+        "`logrotate`.",
+        "`journalctl`.",
+        "`rsync`."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 35,
+      "pregunta": "¿Qué utilidad de Windows es esencialmente un repositorio de imágenes de Windows que se utiliza para **reparar, preparar y modificar las imágenes de instalación** del SO?",
+      "opciones": [
+        "Task Manager.",
+        "REGEDIT.",
+        "DISM (Deployment Image Servicing and Management).",
+        "MMC (Microsoft Management Console)."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 36,
+      "pregunta": "¿Qué función de mantenimiento se lleva a cabo al usar el comando `apt update` (Debian/Ubuntu) o `yum check-update` (RHEL/CentOS)?",
+      "opciones": [
+        "Instalar todas las actualizaciones disponibles.",
+        "Eliminar paquetes antiguos.",
+        "Actualizar la lista de paquetes disponibles en los repositorios.",
+        "Forzar el reinicio del servidor."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 37,
+      "pregunta": "¿Qué es un **Snapshot** (instantánea) de una Máquina Virtual?",
+      "opciones": [
+        "Un *log* de eventos del sistema.",
+        "Una copia de seguridad de la red.",
+        "Un punto de recuperación que captura el estado, los datos y la configuración de una VM en un momento dado.",
+        "Un índice de archivos corruptos."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 38,
+      "pregunta": "¿Cuál es la principal ventaja de utilizar un **Repositorio de Parches Centralizado** (ej. WSUS en Windows) en una red grande?",
+      "opciones": [
+        "Aumentar la velocidad de la red.",
+        "Reducir el consumo de ancho de banda y garantizar la consistencia en la aplicación de parches.",
+        "Eliminar la necesidad de *drivers*.",
+        "Automatizar la desfragmentación de disco."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 39,
+      "pregunta": "La **Reversión (*Rollback*)** de una actualización se considera una forma de:",
+      "opciones": [
+        "Mantenimiento Preventivo.",
+        "Reparación.",
+        "Actualización.",
+        "Despliegue."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 40,
+      "pregunta": "¿Qué se denomina **Bootstrapping** en el contexto de la administración inicial del sistema?",
+      "opciones": [
+        "El proceso de arranque del *hardware* (*BIOS/UEFI*).",
+        "La instalación inicial y la configuración mínima necesaria para que el sistema pueda autoconfigurarse (ej. usar un script de Ansible).",
+        "La creación de un punto de restauración.",
+        "La instalación del *firewall*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 41,
+      "pregunta": "¿Qué metodología aboga por integrar la seguridad en cada fase del ciclo de vida de desarrollo y operaciones?",
+      "opciones": [
+        "SecOps Tradicional.",
+        "DevSecOps.",
+        "Infraestructura como Servicio (IaaS).",
+        "BCNF."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 42,
+      "pregunta": "En el *Cloud Computing* (ej. AWS, Azure), ¿cuál es el concepto que define la **gestión de la infraestructura mediante API en lugar de *hardware***?",
+      "opciones": [
+        "Virtualización Pesada.",
+        "Abstracción de Recursos.",
+        "Administración de Monolitos.",
+        "Arquitectura *On-premise*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 43,
+      "pregunta": "¿Qué concepto de seguridad se refiere a la automatización del escaneo de vulnerabilidades en el código, imágenes de contenedores y configuraciones de IaC?",
+      "opciones": [
+        "Escaneo manual de código.",
+        "*Shift Left* Security.",
+        "*Zero Trust* Network.",
+        "*Patch Management*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 44,
+      "pregunta": "La implementación de una **Red de Malla de Servicio (*Service Mesh*)** (ej. Istio) se asocia principalmente con qué arquitectura?",
+      "opciones": [
+        "Servidores monolíticos.",
+        "Redes LAN tradicionales.",
+        "Arquitecturas de Microservicios y K8s.",
+        "Máquinas físicas individuales."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 45,
+      "pregunta": "¿Qué herramienta de código abierto se utiliza ampliamente para la **monitorización y el alertamiento** en entornos de contenedores y microservicios, registrando métricas en series de tiempo?",
+      "opciones": [
+        "Nagios.",
+        "Prometheus.",
+        "Splunk.",
+        "Nmap."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 46,
+      "pregunta": "¿Qué desafío introduce el modelo de **Responsabilidad Compartida** en la administración del SO en la nube?",
+      "opciones": [
+        "El proveedor de la nube es responsable del SO del cliente.",
+        "El cliente es responsable del SO e incluso del *hardware* físico.",
+        "El cliente es responsable del SO invitado, mientras que el proveedor es responsable del *hardware* físico y del hipervisor.",
+        "No existe la responsabilidad compartida en la nube."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 47,
+      "pregunta": "¿Cuál es el principal objetivo de **AIOps** (Inteligencia Artificial para Operaciones)?",
+      "opciones": [
+        "Sustituir completamente a los ingenieros de sistemas.",
+        "Utilizar IA/ML para automatizar la resolución de problemas, el diagnóstico y el mantenimiento predictivo.",
+        "Aplicar la BCNF a todas las bases de datos.",
+        "Generar reportes financieros automáticamente."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 48,
+      "pregunta": "El principio de **Inmutabilidad** en la administración de servidores (*Immutable Infrastructure*) significa que:",
+      "opciones": [
+        "El servidor no puede ser atacado.",
+        "Los servidores se configuran manualmente y no se cambian.",
+        "En lugar de aplicar parches, el servidor se reemplaza completamente por una nueva imagen (VM o Contenedor) con la última configuración.",
+        "El *firmware* nunca se actualiza."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 49,
+      "pregunta": "¿Qué solución de seguridad en la nube se centra en el principio de **'Nunca Confiar, Siempre Verificar'** y no asume la confianza basándose en la ubicación de la red?",
+      "opciones": [
+        "VPN tradicional.",
+        "Perímetro de seguridad tradicional.",
+        "Zero Trust Network Access (ZTNA).",
+        "Protocolo de Transferencia de Archivos (FTP)."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Qué se conoce como **Golden Image** en la administración de VM y contenedores?",
+      "opciones": [
+        "La última copia de seguridad de la base de datos.",
+        "Una imagen base del SO o contenedor que ha sido preconfigurada, testeada y endurecida (*hardened*).",
+        "El archivo de estado de Terraform.",
+        "La clave privada del servidor SSH."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 51,
+      "pregunta": "¿Qué tecnología se utiliza para garantizar el tráfico seguro entre los microservicios dentro de un *cluster* de Kubernetes?",
+      "opciones": [
+        "*Service Mesh*.",
+        "*Load Balancer* externo.",
+        "Red de área local (LAN).",
+        "FTP sin cifrar."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 52,
+      "pregunta": "¿Qué herramienta se utiliza para la **gestión centralizada de secretos y credenciales** (claves API, contraseñas de BD) en un entorno automatizado?",
+      "opciones": [
+        "REGEDIT de Windows.",
+        "Archivo de texto plano (*.txt*).",
+        "HashiCorp Vault.",
+        "Cron jobs."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 53,
+      "pregunta": "¿Cuál es la principal ventaja de utilizar un **Almacén de Imágenes de Contenedores Privado** (ej. AWS ECR, Docker Hub Privado)?",
+      "opciones": [
+        "Reduce el tiempo de *Rollout*.",
+        "Garantiza que solo se utilicen imágenes aprobadas y escaneadas por seguridad.",
+        "Disminuye el tamaño de los contenedores.",
+        "Elimina la necesidad de *firewall*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 54,
+      "pregunta": "¿Qué concepto de automatización permite a un sistema detectar fallos y **restaurar automáticamente el servicio** a partir de una versión anterior o un punto de restauración?",
+      "opciones": [
+        "*Rollback* Automatizado.",
+        "Desfragmentación.",
+        "*Serverless*.",
+        "Escalabilidad Vertical."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 55,
+      "pregunta": "¿Qué servicio de la nube es un ejemplo de **Plataforma como Servicio (PaaS)**, donde el proveedor gestiona el SO y el *Software de Base* de la BD?",
+      "opciones": [
+        "Instancia EC2 (AWS).",
+        "Azure SQL Database.",
+        "Un servidor físico local.",
+        "Un *firewall* físico."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 56,
+      "pregunta": "El uso de **Git** en la administración de sistemas es fundamental para:",
+      "opciones": [
+        "El almacenamiento de copias de seguridad de datos.",
+        "El control de versiones, la auditoría y la colaboración en el código de infraestructura (IaC).",
+        "La desfragmentación de *logs*.",
+        "El cifrado de datos."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 57,
+      "pregunta": "¿Qué tipo de pruebas de seguridad se integra en el *pipeline* de CI/CD para escanear el código *antes* de que se despliegue?",
+      "opciones": [
+        "Pruebas de Intrusión (Pen-testing).",
+        "Pruebas de Rendimiento.",
+        "Análisis Estático de Seguridad de Aplicaciones (SAST).",
+        "Pruebas de Aceptación del Usuario (UAT)."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 58,
+      "pregunta": "¿Qué riesgo se mitiga al utilizar el principio de **separación de roles y privilegios** en la administración de sistemas?",
+      "opciones": [
+        "El aumento del consumo de RAM.",
+        "El impacto de una cuenta de usuario comprometida.",
+        "La latencia de la red.",
+        "La necesidad de usar *firewall*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 59,
+      "pregunta": "La **Orquestación de la Recuperación ante Desastres (DR Orchestration)** se refiere a:",
+      "opciones": [
+        "La compra de *hardware* de respaldo.",
+        "La automatización y la coordinación de los pasos necesarios para restaurar los sistemas y el *software de base* después de un desastre.",
+        "El almacenamiento manual de los *backups*.",
+        "La instalación de un único servidor de *backup*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 60,
+      "pregunta": "¿Cuál es el principal indicador de que un **parche de seguridad** ha sido aplicado correctamente en todos los sistemas?",
+      "opciones": [
+        "El aumento de la velocidad de la CPU.",
+        "La verificación automática de que el número de versión del sistema o el archivo de sistema clave coincida con el esperado.",
+        "La reducción de la latencia de red.",
+        "La desfragmentación del disco."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 61,
+      "pregunta": "¿Qué servicio del SO Windows es esencial para la gestión de usuarios, políticas de seguridad y distribución de *software* en entornos empresariales?",
+      "opciones": [
+        "Hyper-V.",
+        "Active Directory (AD).",
+        "Windows Defender.",
+        "Task Scheduler."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 62,
+      "pregunta": "¿Qué es un **Kernel Panic** en sistemas Linux/Unix?",
+      "opciones": [
+        "Un error de aplicación de bajo nivel.",
+        "Una condición irrecuperable en el *kernel* que detiene el sistema.",
+        "Un fallo de hardware en la memoria RAM.",
+        "Un problema de conectividad de red."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 63,
+      "pregunta": "La configuración de un **Swap File** o **Paging File** en el SO se utiliza para:",
+      "opciones": [
+        "Mejorar la velocidad de transferencia de archivos.",
+        "Extender la memoria RAM utilizando el disco duro cuando la RAM física se agota.",
+        "Almacenar archivos de *log*.",
+        "Cifrar los datos del disco."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 64,
+      "pregunta": "¿Qué archivo en los sistemas Linux/Unix contiene la configuración del *software* para iniciar servicios automáticamente al arrancar el SO?",
+      "opciones": [
+        "`/etc/passwd`.",
+        "`/var/log/messages`.",
+        "`/etc/fstab`.",
+        "Archivos de configuración de *Systemd* o *init*."
+      ],
+      "respuesta_correcta": 4
+    },
+    {
+      "id": 65,
+      "pregunta": "¿Cuál es el objetivo de **endurecer (*Hardening*)** un Sistema Operativo?",
+      "opciones": [
+        "Aumentar su capacidad de almacenamiento.",
+        "Reducir su superficie de ataque eliminando servicios innecesarios y aplicando políticas de seguridad estrictas.",
+        "Aumentar su capacidad de procesamiento.",
+        "Reducir la latencia de la red."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 66,
+      "pregunta": "¿Qué se conoce como **Thrashing** en la gestión de memoria del SO?",
+      "opciones": [
+        "El uso eficiente de la memoria RAM.",
+        "La condición donde el sistema pasa más tiempo haciendo *paging* (intercambiando memoria entre RAM y disco) que realizando trabajo útil.",
+        "El proceso de liberar memoria.",
+        "La corrupción de archivos del sistema."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 67,
+      "pregunta": "El uso de **Virtualización Anidada (*Nested Virtualization*)** permite:",
+      "opciones": [
+        "Ejecutar contenedores dentro de otros contenedores.",
+        "Ejecutar un hipervisor dentro de una máquina virtual.",
+        "Eliminar la necesidad de un SO *host*.",
+        "Aumentar la velocidad del disco."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 68,
+      "pregunta": "¿Qué tipo de RAID (Redundant Array of Independent Disks) ofrece el mejor equilibrio entre rendimiento (velocidad de lectura/escritura) y redundancia (tolerancia a fallos)?",
+      "opciones": [
+        "RAID 0.",
+        "RAID 1.",
+        "RAID 5 o RAID 10.",
+        "RAID 60."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 69,
+      "pregunta": "¿Qué archivo en Linux se utiliza comúnmente para programar la ejecución automática de tareas de mantenimiento (ej. limpieza de logs) en intervalos de tiempo regulares?",
+      "opciones": [
+        "`/etc/passwd`.",
+        "`/etc/crontab` o `/etc/cron.*`.",
+        "`/etc/hosts`.",
+        "`/boot/grub/grub.cfg`."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 70,
+      "pregunta": "¿Qué técnica se utiliza para **analizar el rendimiento** de una aplicación mediante la medición del tiempo que pasa en diferentes funciones?",
+      "opciones": [
+        "*Debugging*.",
+        "*Benchmarking*.",
+        "*Profiling*.",
+        "*Patching*."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 71,
+      "pregunta": "¿Cuál es la diferencia clave entre **Monitoreo** y **Observabilidad**?",
+      "opciones": [
+        "No hay diferencia, son sinónimos.",
+        "El Monitoreo se basa en métricas predefinidas, mientras que la Observabilidad se basa en la exploración de métricas, *logs* y *traces* para responder a preguntas desconocidas.",
+        "El Monitoreo solo aplica a servidores, la Observabilidad solo a contenedores.",
+        "La Observabilidad solo se aplica en la nube."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 72,
+      "pregunta": "¿Cuáles son los **'Tres Pilares'** de la Observabilidad moderna?",
+      "opciones": [
+        "CPU, RAM y Disco.",
+        "*Logs*, Métricas y *Traces*.",
+        "Usuarios, *Hardware* y *Software*.",
+        "Seguridad, Rendimiento y Disponibilidad."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 73,
+      "pregunta": "¿Qué herramienta se utiliza comúnmente para **visualizar** las métricas recopiladas por Prometheus?",
+      "opciones": [
+        "ELK Stack.",
+        "Grafana.",
+        "PuTTY.",
+        "Windows Defender."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 74,
+      "pregunta": "El **Análisis de la Causa Raíz (*Root Cause Analysis*)** asistido por AIOps se beneficia de:",
+      "opciones": [
+        "La intervención manual del administrador.",
+        "La correlación de eventos y anomalías a través de millones de *logs* y *traces*.",
+        "La ejecución de `SFC /scannow`.",
+        "El reinicio del servidor."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 75,
+      "pregunta": "La **Latencia** en la red es una métrica clave que se utiliza para medir:",
+      "opciones": [
+        "La seguridad del sistema.",
+        "El tiempo que tarda un paquete de datos en viajar desde el origen hasta el destino y viceversa.",
+        "La cantidad de memoria RAM utilizada.",
+        "El número de archivos corruptos."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 76,
+      "pregunta": "¿Qué función principal tiene una **Distributed Tracing System** (ej. Jaeger) en una arquitectura de microservicios?",
+      "opciones": [
+        "Almacenar archivos de *log* de forma centralizada.",
+        "Seguir el flujo de una única petición a través de múltiples microservicios para medir la latencia.",
+        "Realizar copias de seguridad de la base de datos.",
+        "Aplicar parches de seguridad."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 77,
+      "pregunta": "¿Qué solución se utiliza para centralizar, almacenar e indexar grandes volúmenes de **logs** del SO y de las aplicaciones para su búsqueda rápida?",
+      "opciones": [
+        "Un único archivo de texto plano.",
+        "El ELK Stack (Elasticsearch, Logstash, Kibana).",
+        "La memoria RAM.",
+        "Una unidad USB."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 78,
+      "pregunta": "¿Qué es un **Synthetic Monitoring** en la administración de sistemas?",
+      "opciones": [
+        "Monitoreo realizado por usuarios reales.",
+        "Monitoreo simulado de transacciones clave (ej. un *login*) desde ubicaciones externas para medir el rendimiento percibido por el usuario.",
+        "Monitoreo de la CPU y la RAM.",
+        "Monitoreo del consumo de energía."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 79,
+      "pregunta": "La creación de **Alertas Dinámicas** en lugar de umbrales estáticos (ej. 'alertar si la CPU es >90%') es una característica clave de:",
+      "opciones": [
+        "Monitoreo Tradicional.",
+        "AIOps.",
+        "SFC.",
+        "YAML."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 80,
+      "pregunta": "¿Qué se conoce como **Runbook Automation**?",
+      "opciones": [
+        "Documentación manual de todos los procedimientos.",
+        "La creación de guías paso a paso para la resolución de problemas.",
+        "La automatización de los procedimientos operacionales de rutina (los *runbooks*).",
+        "La gestión de la memoria RAM."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 81,
+      "pregunta": "El proceso de **Patch Management** (Gestión de Parches) incluye la siguiente secuencia lógica:",
+      "opciones": [
+        "Despliegue, Prueba, Evaluación.",
+        "Prueba, Despliegue, Evaluación.",
+        "Evaluación, Prueba, Despliegue.",
+        "Despliegue, Evaluación, Prueba."
+      ],
+      "respuesta_correcta": 3
+    },
+    {
+      "id": 82,
+      "pregunta": "¿Qué tecnología se utiliza para crear un **Entorno de Aislamiento (*Sandbox*)** para probar nuevas actualizaciones del SO o *software de base*?",
+      "opciones": [
+        "La desfragmentación de disco.",
+        "La virtualización.",
+        "La gestión de *logs*.",
+        "El *Bootstrapping*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 83,
+      "pregunta": "¿Qué concepto de seguridad se asocia con el uso de **MFA (*Multi-Factor Authentication*)**?",
+      "opciones": [
+        "Gestión de Almacenamiento.",
+        "Autenticación y Gestión de Acceso (IAM).",
+        "*Log* de Eventos.",
+        "Escalabilidad Horizontal."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 84,
+      "pregunta": "¿Cuál es el principal riesgo al realizar una **Actualización Mayor (*Major Upgrade*)** del SO en un entorno de producción?",
+      "opciones": [
+        "El bajo uso de CPU.",
+        "La compatibilidad con el *Software de Base* y las aplicaciones existentes.",
+        "El aumento de la latencia.",
+        "El riesgo de desfragmentación."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 85,
+      "pregunta": "¿Qué componente de seguridad previene la ejecución de **código no autorizado** en el SO (ej. *Malware*)?",
+      "opciones": [
+        "*Firewall* (bloquea el tráfico de red).",
+        "Antivirus/EDR (*Endpoint Detection and Response*).",
+        "Desfragmentador de disco.",
+        "*Log* de Eventos."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 86,
+      "pregunta": "¿Qué es un **Hotfix**?",
+      "opciones": [
+        "Una actualización de versión completa del SO.",
+        "Un parche pequeño y urgente para solucionar un problema específico y crítico (generalmente de seguridad).",
+        "Un reinicio del servidor.",
+        "Una copia de seguridad de la base de datos."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 87,
+      "pregunta": "La **Gestión de la Configuración Deseada (DCM)** se relaciona más estrechamente con:",
+      "opciones": [
+        "La reparación manual de archivos.",
+        "El uso de herramientas como Ansible para hacer cumplir automáticamente una configuración definida como estándar.",
+        "La monitorización del disco.",
+        "La desfragmentación de *logs*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 88,
+      "pregunta": "En la administración de Linux, ¿qué es un **SELinux** o **AppArmor**?",
+      "opciones": [
+        "Un sistema de archivos.",
+        "Un mecanismo de control de acceso obligatorio (MAC) para reforzar la seguridad del *kernel*.",
+        "Un gestor de paquetes.",
+        "Una utilidad de desfragmentación."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 89,
+      "pregunta": "¿Qué rol en la nube se encarga de crear y mantener las imágenes del SO (AMIs en AWS o Managed Images en Azure) que se utilizarán para aprovisionar las VMs?",
+      "opciones": [
+        "El usuario final.",
+        "El Ingeniero de Imagen/Plataforma.",
+        "El equipo de ventas.",
+        "El administrador de la base de datos."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 90,
+      "pregunta": "¿Cuál es la principal función de un **Bastion Host** (o *Jump Server*) en la administración remota de sistemas?",
+      "opciones": [
+        "Servir páginas web.",
+        "Proporcionar un punto de acceso fortificado y centralizado para la administración de la red interna.",
+        "Almacenar *logs*.",
+        "Realizar la desfragmentación del disco."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 91,
+      "pregunta": "¿Qué herramienta de Linux se utiliza para gestionar el sistema y los servicios (incluyendo el *logging*) en las distribuciones más modernas (ej. Ubuntu, CentOS)?",
+      "opciones": [
+        "*init*.",
+        "*Systemd*.",
+        "*Bash*.",
+        "*Cron*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 92,
+      "pregunta": "En Windows, ¿qué utilidad se utiliza para la administración de componentes del sistema, como el Visor de Eventos, la Consola de Servicios y el Editor de Directivas de Grupo?",
+      "opciones": [
+        "*PowerShell*.",
+        "*Microsoft Management Console (MMC)*.",
+        "*File Explorer*.",
+        "*Task Scheduler*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 93,
+      "pregunta": "¿Qué comando de Linux se utiliza para **montar (*mount*)** un sistema de archivos, haciendo que esté disponible en una ubicación específica del árbol de directorios?",
+      "opciones": [
+        "`ls`.",
+        "`mount`.",
+        "`touch`.",
+        "`cat`."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 94,
+      "pregunta": "En Linux, ¿qué indica el valor **755** en los permisos de archivo (rwx)?",
+      "opciones": [
+        "El propietario tiene todos los permisos; el grupo y otros tienen permisos de lectura y ejecución.",
+        "El propietario tiene todos los permisos; el grupo y otros tienen permisos de lectura y escritura.",
+        "Solo el propietario tiene permisos de lectura.",
+        "El propietario tiene permisos de lectura y ejecución; el grupo y otros tienen todos los permisos."
+      ],
+      "respuesta_correcta": 1
+    },
+    {
+      "id": 95,
+      "pregunta": "¿Qué componente de seguridad de Windows permite al administrador **aplicar configuraciones y restricciones de seguridad** a un grupo de usuarios o máquinas de forma centralizada en un dominio de Active Directory?",
+      "opciones": [
+        "*Registry Editor*.",
+        "*Group Policy Object (GPO)*.",
+        "*Disk Management*.",
+        "*SFC*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 96,
+      "pregunta": "¿Qué utilidad de PowerShell se utiliza comúnmente para **aplicar la configuración deseada** en servidores Windows de forma automatizada (similar a Ansible o Chef)?",
+      "opciones": [
+        "*WinRM*.",
+        "*Desired State Configuration (DSC)*.",
+        "*Event Viewer*.",
+        "*CHKDSK*."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 97,
+      "pregunta": "¿Cuál es el principal gestor de paquetes en distribuciones basadas en Debian/Ubuntu?",
+      "opciones": [
+        "`yum` y `rpm`.",
+        "`apt` y `dpkg`.",
+        "`snap` y `flatpak`.",
+        "`dnf`."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 98,
+      "pregunta": "El uso del comando **`sudo`** en Linux está relacionado con:",
+      "opciones": [
+        "La instalación de *drivers*.",
+        "La ejecución de comandos con privilegios de superusuario (root).",
+        "La desfragmentación de disco.",
+        "La verificación de la conexión a internet."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 99,
+      "pregunta": "En Windows, ¿qué se denomina **Perfil de Usuario Móvil (*Roaming Profile*)**?",
+      "opciones": [
+        "Un perfil de usuario que se guarda localmente en el disco.",
+        "Un perfil de usuario que se almacena en una unidad de red y se descarga en cualquier máquina del dominio al iniciar sesión.",
+        "Un perfil para dispositivos móviles.",
+        "Un perfil que no tiene permisos de administrador."
+      ],
+      "respuesta_correcta": 2
+    },
+    {
+      "id": 100,
+      "pregunta": "La configuración del *log* en **modo verboso** (*verbose mode*) se realiza para:",
+      "opciones": [
+        "Reducir el tamaño de los archivos de *log*.",
+        "Obtener información detallada y de bajo nivel para la depuración y el diagnóstico avanzado.",
+        "Cifrar los *logs*.",
+        "Eliminar los *logs* antiguos automáticamente."
+      ],
+      "respuesta_correcta": 2
+    }
+]

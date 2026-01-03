@@ -1,0 +1,66 @@
+# Archivos de configuración sensibles
+token.env
+.env
+.env.local
+.env.*.local
+
+# Logs y registros
+*.log
+intrusos.log
+
+# Directorios de dependencias
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
+*.backup
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node modules (si usas Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Otros archivos sensibles
+secrets.json
+credentials.json
+*.pem
+*.key
+*.keystore
